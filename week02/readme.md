@@ -99,11 +99,11 @@ dash for mac
 
 velocity
 
-- **MAC OS** 
+- **MAC OS** <br/>
 Dash for Mac → [https://kapeli.com/dash](https://kapeli.com/dash) <br/>
 다운로드 받기 → [https://www.dropbox.com/s/avpmlfexzix8f8v/Dash.zip?dl=0](https://www.dropbox.com/s/avpmlfexzix8f8v/Dash.zip?dl=0)<br/>
 맥에서 Zeal 설치하기 → [https://github.com/zealdocs/zeal/wiki/Build-Instructions-for-macOS](https://github.com/zealdocs/zeal/wiki/Build-Instructions-for-macOS)
-- **Windows** 
+- **Windows** <br/>
 Velocity → [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com/)<br/>
 Zeal → [https://zealdocs.org](https://zealdocs.org/)
 
