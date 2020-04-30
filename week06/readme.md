@@ -116,12 +116,26 @@ text("hello hello", x, y);   // x, y 위치에 폰트 그리기
 ## 10개의 랜덤한 값을 생성하여 배열에 넣고 사용하기
 
 ```java
-// 10개의 랜덤한 값을 사용하자
+/*
+    10개의 랜덤한 수를 배열에 넣고 사용해보자
+*/
+
+float []randomValue = new float[10];
 
 void setup(){
-	size(400, 400);
+    size(400, 400);
+    
+    for(int i=0; i<10; i++){
+        // 각 배열에 0-400 사이의 랜덤한 값을 만들어 넣는다
+        randomValue[i] = random(400);     
+    }
 }
 
 void draw(){
+    background(0);
+    for(int i=0; i<10; i++){
+        // 랜덤한 값을 사용하여 사각형을 그린다.
+        rect(i*40, height-randomValue[i], 40, randomValue[i]);
+    }
 }
 ```
